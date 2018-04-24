@@ -44,6 +44,7 @@ namespace ListaVetor
             Console.WriteLine("Digite 16° numero: ");
             int numero16 = Convert.ToInt32(Console.ReadLine());
 
+            Console.Clear();
 
 
             numeros[0] = + numero1;
@@ -63,7 +64,8 @@ namespace ListaVetor
             numeros[14] = + numero15;
             numeros[15] = + numero16;
 
-            double soma = (numero1 + numero2 + numero3 + numero4 + numero5 + numero6 + numero7 + numero8 + numero9 + numero10 + numero11 + numero12 + numero13 + numero14 + numero15 + numero16);
+            double soma = (numeros[0] + numeros[1] + numeros[2] + numeros[3] + numeros[4] + numeros[5] + numeros[6] + numeros[7] + numeros[8] + numeros[9] + numeros[10] + numeros[11] + numeros[12] + numeros[13] + numeros[14] + numeros[15]);
+            
 
             Console.WriteLine("Soma dos números: " + soma);
         }
